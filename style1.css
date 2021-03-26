@@ -19,13 +19,33 @@ body
 	font-family: 'Raleway', Arial, serif;
 }
 
-#bloc_page
+#bloc-page
 {
     max-width: 1440px;
     max-height: 1860px;
     margin: auto;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 768px){
+ 
+...
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+ 
+...
+ 
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+ 
+...
+ 
+}
+@media only screen and (min-width: 1200px) and (max-width: 2000px){
+ 
+...
+ 
+}
 /* Navigation */
 
 #menu
@@ -92,25 +112,6 @@ header p
   margin-top: 15px;
 }
 
-/* Plus d'informations */
-
-#info
-{
-	color: #FFFFFF;
-	background-color: #0065FC;
-	font-size: 25px;
-	border: 2px #F2F2F2 solid;
-	border-radius: 22px 22px 22px 22px;
-	margin-right: 15px;
-}
-
-p
-{
-	font-family: 'Raleway', Arial, serif;
-	margin-bottom: 35px;
-	margin-top: 15px;
-}
-
 /* Bouton de recherche */
 
 #mrs
@@ -133,12 +134,12 @@ p
 	font-size: 22px;
 }
 
-#loc
+#localisation
 {
 	margin-top: 10px;
 }
 
-#marecherche
+#ma-recherche
 {
 	background-color: #FFFFFF;
 	border: 1px #F2F2F2 solid;
@@ -175,7 +176,7 @@ input
 
 /*Filtres*/
 
-#bloc1
+#filtres
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -185,45 +186,29 @@ input
 	text-align: left;
 }
 
-i#eco
+i#money
 {
 	font-size: 18px;
 	color: #0065FC;
 	margin-top: 8px;
 }
-i#eco1
+i#child
 {
 	font-size: 18px;
 	color: #0065FC;
 	margin-top: 8px;
 }
-i#eco2
+i#heart
 {
 	font-size: 18px;
 	color: #0065FC;
 	margin-top: 8px;
 }
-i#eco3
+i#dog
 {
 	font-size: 18px;
 	color: #0065FC;
 	margin-top: 8px;
-}
-#elem2:hover
-{
-	background-color: #F2F2F2;
-}
-#elem3:hover
-{
-	background-color: #F2F2F2;
-}
-#elem4:hover
-{
-	background-color: #F2F2F2;
-}
-#elem5:hover
-{
-	background-color: #F2F2F2;
 }
 
 .rond
@@ -234,7 +219,7 @@ i#eco3
 	margin-right: 10px;
 }
 
-.rond1
+.rond-1
 {
     border: 11px rgb(221,236,254) solid;
 	background-color: rgb(221,236,255);
@@ -244,7 +229,7 @@ i#eco3
 	margin-right: 10px;
 }
 
-.rond2
+.rond-2
 {
     border: 11px rgb(221,236,254) solid;
 	background-color: rgb(221,236,255);
@@ -254,7 +239,7 @@ i#eco3
 	border-right-width: 14px;
 }
 
-.rond3
+.rond-3
 {
     border: 11px rgb(221,236,254) solid;
 	background-color: rgb(221,236,255);
@@ -264,7 +249,7 @@ i#eco3
 	margin-right: 10px;
 }
 
-#ele1
+#titre
 {
 	font-size: 16px;
 	margin-top: 10px;
@@ -272,7 +257,7 @@ i#eco3
 	margin-right: 25px;
 }
 
-#elem2
+#filtre-2
 {
 	color: black;
 	background-color: #FFFFFF;
@@ -285,7 +270,7 @@ i#eco3
 	margin-right: 25px;
 }
 
-#elem3
+#filtre-3
 {
 	color: black;
 	background-color: #FFFFFF;
@@ -298,7 +283,7 @@ i#eco3
 	margin-right: 25px;
 }
 
-#elem4
+#filtre-4
 {
 	color: black;
 	background-color: #FFFFFF;
@@ -311,7 +296,7 @@ i#eco3
 	margin-right: 25px;
 }
 
-#elem5
+#filtre-5
 {
 	color: black;
 	background-color: #FFFFFF;
@@ -322,6 +307,47 @@ i#eco3
 	width: 220px;
 	height: 35px;
 	margin-right: 25px;
+}
+
+#filtre-2:hover
+{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+#filtre-3:hover
+{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+#filtre-4:hover
+{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+#filtre-5:hover
+{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+/* Plus d'informations */
+
+#info
+{
+	color: #FFFFFF;
+	background-color: #0065FC;
+	opacity: 0.5em;
+	font-size: 24px;
+	border: 2px #F2F2F2 solid;
+	border-radius: 22px 22px 22px 22px;
+	margin-right: 15px;
+}
+
+p
+{
+	font-family: 'Raleway', Arial, serif;
+	margin-bottom: 35px;
+	margin-top: 15px;
 }
 
 /* Hébergements */
@@ -338,7 +364,7 @@ section h3, strong
     font-family: 'Bold';
 }
 
-#first
+#premier-bloc
 {
 	display: flex;
 	flex-direction: column;
@@ -414,7 +440,7 @@ section h3, strong
     color: #F2F2F2;
 }
 
-#affiche
+#afficher-plus
 {
 	margin-left: 50px;
 	font-size: 21px;
@@ -423,7 +449,7 @@ section h3, strong
 
 /* Les plus populaires */
 
-#second
+#second-bloc
 {
 	display: inline-block;
 	flex-direction: column;
@@ -455,7 +481,7 @@ section h3, strong
 	margin-left: 25px;
 }
 
-.pop
+.aside-hotel
 {
     width: 170px;
 	height: 190px;
@@ -464,7 +490,7 @@ section h3, strong
 	margin-right: 15px;
 }
 
-a.test
+a.aside-bloc
 {
 	width : 330px;
 	height: 190px;
@@ -480,7 +506,7 @@ a.test
 	margin-bottom: 55px;
 	box-shadow: 3px 3px 3px rgb(235,235,235);
 }
-.test i
+.aside-bloc i
 {
     color: #0065FC;
 }
@@ -514,7 +540,7 @@ article p
 	margin-left: 20px;
 }
 
-#acti
+#conteneur
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -526,7 +552,7 @@ article p
 	margin-left: 40px;
 }
 
-a.acti1
+a.activites-1
 {
 	width: 320px;
 	height: 438px;
@@ -550,7 +576,7 @@ a.acti1
 	border-radius: 25px 25px 0px 0px;
 }
 
-a.acti2
+a.activites-2
 {
 	width: 300px;
 	height: 210px;
@@ -574,7 +600,7 @@ a.acti2
 	height: 210px;
 	border-radius: 25px 25px 0px 0px;
 }
-a.acti3
+a.activites-3
 {
 	width: 300px;
 	height: 150px;
@@ -598,13 +624,13 @@ a.acti3
 	border-radius: 25px 25px 0px 0px;
 }
 
-.ajustement
+.ajustement-bloc
 {
 	width: 320px;
 	height: 500px;
 }
 
-a.acti4
+a.activites-4
 {
 	width: 320px;
 	height: 438px;
@@ -628,7 +654,7 @@ a.acti4
 	border-radius: 25px 25px 0px 0px;
 }
 
-a.acti5
+a.activites-5
 {
 	width: 320px;
 	height: 180px;
@@ -653,7 +679,7 @@ a.acti5
 	border-radius: 25px 25px 0px 0px;
 }
 
-a.acti6
+a.activites-6
 {
 	width: 320px;
 	height: 180px;
@@ -698,19 +724,19 @@ footer li
     font-family: 'Raleway'
 }
 
-#pos
+#apropos
 {
     font-family: 'Bold';
     font-size: 18px;
 }
 
-#heb
+#hebergements
 {
     font-family: 'Bold';
     font-size: 18px;
 }
 
-#assi
+#assistance
 {
     font-family: 'Bold';
     font-size: 18px;
