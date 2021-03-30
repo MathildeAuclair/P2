@@ -31,7 +31,7 @@ body
 ...
  
 }
-@media only screen and (min-width: 769px) and (max-width: 991px)
+@media only screen and (min-width: 769px) and (max-width: 1024px)
 {
 
 #bloc-page
@@ -163,82 +163,84 @@ i#ligne
   font-size: 18px;
 }
 
+#troisieme-bloc p 
+{
+  font-size: 13px;
+}
+
 #img1
 {
-  width: 190px;
-  height: 280px;
+  max-width: 190px;
+  max-height: 280px;
 }
 a.activites-1
 {
-  width: 190px;
-  height: 280px;
+  max-width: 190px;
+  max-height: 280px;
 }
 
 #img2
 {
-  width: 190px;
-  height: 120px;
+  max-width: 190px;
+  max-height: 120px;
 }
 a.activites-2
 {
-  width: 190px;
-  height: 120px;
+  max-width: 190px;
+  max-height: 120px;
   margin-left: 20px;
 }
 
 #img3
 {
-  width: 190px;
-  height: 80px;
+  max-width: 190px;
+  max-height: 80px;
 }
 a.activites-3
 {
-  width: 190px;
-  height: 80px;
+  max-width: 190px;
+  max-height: 80px;
   margin-left: 20px;
 }
 
 #img4
 {
-  width: 190px;
-  height: 280px;
+  max-width: 190px;
+  max-height: 280px;
 }
 a.activites-4
 {
-  width: 190px;
-  height: 280px;
+  max-width: 190px;
+  max-height: 280px;
 }
 #img5
 {
-  width: 190px;
-  height: 102px;
+  max-width: 190px;
+  max-height: 102px;
 }
 a.activites-5
 {
-  width: 190px;
-  height: 102px;
+  max-width: 190px;
+  max-height: 102px;
   margin-left: 20px;
 }
 
 #img6
 {
-  width: 190px;
-  height: 102px;
+  max-width: 190px;
+  max-height: 102px;
 }
 a.activites-6
 {
-  width: 190px;
-  height: 102px;
+  max-width: 190px;
+  max-height: 102px;
   margin-left: 20px;
 }
-#ajustement-bloc
+
+.ajustement-bloc
 {
-	width: 350px;
-	height: 300px;
-}
-#troisieme-bloc p 
-{
-  font-size: 13px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 footer ul
@@ -273,169 +275,13 @@ a#assistance
 }
 
 }
-@media only screen and (min-width: 992px) and (max-width: 1800px)
+@media only screen and (min-width: 1024px) and (max-width: 1332px)
 {
- 
-a.aside-bloc
-{
-	width : 330px;
-	height: 190px;
+
 }
 
-a.activites-1
+@media only screen and (min-width: 1334px) and (max-width: 1800px)
 {
-	max-width: 320px;
-	max-height: 438px;
-	border: 2px rgb(254,254,254) solid;
-	background-color: white;
-	border-radius: 25px 25px 25px 25px;
-	border-bottom-width: 55px;
-	text-decoration: none;
-	list-style-type: none;
-	color: black;
-	font-size: 17px;
-	margin-left: 30px;
-	box-shadow: 2px 2px 2px #F2F2F2;
-	display: inline-block;
-}
-
-#img1
-{
-	max-width: 320px;
-	max-height: 440px;
-	border-radius: 25px 25px 0px 0px;
-}
-
-a.activites-2
-{
-	width: 300px;
-	height: 210px;
-    border: 2px rgb(254,254,254) solid;
-	background-color: white;
-	border-radius: 25px 25px 25px 25px;
-	border-bottom-width: 55px;
-	text-decoration: none;
-	list-style-type: none;
-	color: black;
-	font-size: 17px;
-	box-shadow: 2px 2px 2px #F2F2F2;
-	display: inline-block;
-	margin-bottom: 20px;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-#img2
-{
-	width: 300px;
-	height: 210px;
-	border-radius: 25px 25px 0px 0px;
-}
-a.activites-3
-{
-	width: 300px;
-	height: 150px;
-    border: 2px rgb(254,254,254) solid;
-	background-color: white;
-	border-radius: 25px 25px 25px 25px;
-	border-bottom-width: 55px;
-	text-decoration: none;
-	list-style-type: none;
-	color: black;
-	font-size: 17px;
-	box-shadow: 2px 2px 2px #F2F2F2;
-	display: inline-block;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-#img3
-{
-	width: 300px;
-	height: 150px;
-	border-radius: 25px 25px 0px 0px;
-}
-
-#ajustement-bloc
-{
-	width: 500px;
-	height: 500px;
-	margin-right: 30px;
-}
-
-a.activites-4
-{
-	width: 320px;
-	height: 438px;
-    border: 2px rgb(254,254,254) solid;
-	background-color: white;
-	border-radius: 25px 25px 25px 25px;
-	border-bottom-width: 55px;
-	text-decoration: none;
-	list-style-type: none;
-	color: black;
-	font-size: 17px;
-	box-shadow: 2px 2px 2px #F2F2F2;
-	display: inline-block;
-	margin-left: 30px;
-}
-
-#img4
-{
-	width: 320px;
-	height: 440px;
-	border-radius: 25px 25px 0px 0px;
-}
-
-a.activites-5
-{
-	width: 320px;
-	height: 180px;
-    border: 2px rgb(254,254,254) solid;
-	background-color: white;
-	border-radius: 25px 25px 25px 25px;
-	border-bottom-width: 55px;
-	text-decoration: none;
-	list-style-type: none;
-	color: black;
-	font-size: 17px;
-	box-shadow: 2px 2px 2px #F2F2F2;
-	display: inline-block;
-	margin-bottom: 20px;
-	margin-left: 30px;
-}
-
-#img5
-{
-	width: 320px;
-	height: 180px;
-	border-radius: 25px 25px 0px 0px;
-}
-
-a.activites-6
-{
-	width: 320px;
-	height: 180px;
-    border: 2px rgb(254,254,254) solid;
-	background-color: white;
-	border-radius: 25px 25px 25px 25px;
-	border-bottom-width: 55px;
-	text-decoration: none;
-	list-style-type: none;
-	display: inline-block;
-	color: black;
-	font-size: 17px;
-	box-shadow: 2px 2px 2px #F2F2F2;
-	display: inline-block;
-	margin-left: 30px;
-}
-
-#img6
-{
-	width: 320px;
-	height: 180px;
-	border-radius: 25px 25px 0px 0px;
-}
 
 }
 /* Navigation */
@@ -942,8 +788,8 @@ article p
 
 a.activites-1
 {
-	max-width: 320px;
-	max-height: 438px;
+	width: 320px;
+	height: 438px;
 	border: 2px rgb(254,254,254) solid;
 	background-color: white;
 	border-radius: 25px 25px 25px 25px;
@@ -959,15 +805,15 @@ a.activites-1
 
 #img1
 {
-	max-width: 320px;
-	max-height: 440px;
+	width: 320px;
+	height: 440px;
 	border-radius: 25px 25px 0px 0px;
 }
 
 a.activites-2
 {
-	max-width: 300px;
-	max-height: 210px;
+	width: 300px;
+	height: 210px;
     border: 2px rgb(254,254,254) solid;
 	background-color: white;
 	border-radius: 25px 25px 25px 25px;
@@ -979,18 +825,20 @@ a.activites-2
 	box-shadow: 2px 2px 2px #F2F2F2;
 	display: inline-block;
 	margin-bottom: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 #img2
 {
-	max-width: 300px;
-	max-height: 210px;
+	width: 300px;
+	height: 210px;
 	border-radius: 25px 25px 0px 0px;
 }
 a.activites-3
 {
-	max-width: 300px;
-	max-height: 150px;
+	width: 300px;
+	height: 150px;
     border: 2px rgb(254,254,254) solid;
 	background-color: white;
 	border-radius: 25px 25px 25px 25px;
@@ -1001,25 +849,28 @@ a.activites-3
 	font-size: 17px;
 	box-shadow: 2px 2px 2px #F2F2F2;
 	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 #img3
 {
-	max-width: 300px;
-	max-height: 150px;
+	width: 300px;
+	height: 150px;
 	border-radius: 25px 25px 0px 0px;
 }
 
 .ajustement-bloc
 {
-	max-width: 240px;
-	max-height: 500px;
+	width: 320px;
+	height: 500px;
+	margin-right: 30px;
 }
 
 a.activites-4
 {
-	max-width: 320px;
-	max-height: 438px;
+	width: 320px;
+	height: 438px;
     border: 2px rgb(254,254,254) solid;
 	background-color: white;
 	border-radius: 25px 25px 25px 25px;
@@ -1030,19 +881,20 @@ a.activites-4
 	font-size: 17px;
 	box-shadow: 2px 2px 2px #F2F2F2;
 	display: inline-block;
+	margin-left: 30px;
 }
 
 #img4
 {
-	max-width: 320px;
-	max-height: 440px;
+	width: 320px;
+	height: 440px;
 	border-radius: 25px 25px 0px 0px;
 }
 
 a.activites-5
 {
-	max-width: 320px;
-	max-height: 180px;
+	width: 320px;
+	height: 180px;
     border: 2px rgb(254,254,254) solid;
 	background-color: white;
 	border-radius: 25px 25px 25px 25px;
@@ -1054,19 +906,20 @@ a.activites-5
 	box-shadow: 2px 2px 2px #F2F2F2;
 	display: inline-block;
 	margin-bottom: 20px;
+	margin-left: 30px;
 }
 
 #img5
 {
-	max-width: 320px;
-	max-height: 180px;
+	width: 320px;
+	height: 180px;
 	border-radius: 25px 25px 0px 0px;
 }
 
 a.activites-6
 {
-	max-width: 320px;
-	max-height: 180px;
+	width: 320px;
+	height: 180px;
     border: 2px rgb(254,254,254) solid;
 	background-color: white;
 	border-radius: 25px 25px 25px 25px;
@@ -1078,12 +931,13 @@ a.activites-6
 	font-size: 17px;
 	box-shadow: 2px 2px 2px #F2F2F2;
 	display: inline-block;
+	margin-left: 30px;
 }
 
 #img6
 {
-	max-width: 320px;
-	max-height: 180px;
+	width: 320px;
+	height: 180px;
 	border-radius: 25px 25px 0px 0px;
 }
 
